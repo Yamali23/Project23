@@ -14,10 +14,6 @@
     </dependency>
   </dependencies>
   
-  <properties>
-<project.build.sourceEncoding>CP1251</project.build.sourceEncoding>
-</properties>
-
 <build>
 <pluginManagement>
             <plugins>

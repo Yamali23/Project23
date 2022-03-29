@@ -1,0 +1,46 @@
+package laba4;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.*;
+import java.util.Scanner;
+
+public class LoadingFile implements ActionListener
+{
+    
+    public void actionPerformed(ActionEvent arg0)
+    {
+         loadfile();
+
+    }
+
+    public void loadfile()
+    {
+    	
+    	
+    	String data = "";
+        File myFile = new File( "ff");
+
+        int i = 0;
+        try
+        {
+            Scanner scanner = new Scanner(myFile);
+            while (scanner.hasNext())
+     
+            {
+                
+            	data = data + "  " + scanner.nextLine();
+            
+            }
+        }
+        catch (FileNotFoundException e)
+        {
+            data = "Файл не найден";
+        }
+
+
+        Info infoFrame = new Info();
+        infoFrame.showData(data);
+    }
+
+}

@@ -34,7 +34,7 @@ c = cheeck(t3.getText());
 if((a==0)||(b==0)||(c==0))
 {
 Info infoFrame = new Info();
-infoFrame.showData("Неверные данные. Повторите ввод");
+infoFrame.showData("РќРµРІРµСЂРЅС‹Рµ РґР°РЅРЅС‹Рµ. РџРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ");
 }
 
 else
@@ -48,7 +48,7 @@ public void volume(int a,int b, int c)
 {
 int v = a*b*c;
 Info infoFrame = new Info();
-infoFrame.showData("Объем прямоугольного параллелепипеда равен " + v);
+infoFrame.showData("РћР±СЉРµРј РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ РїР°СЂР°Р»Р»РµР»РµРїРёРїРµРґР° СЂР°РІРµРЅ " + v);
 }
 
 public int cheeck (String s)

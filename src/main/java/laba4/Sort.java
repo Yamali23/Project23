@@ -14,7 +14,7 @@ public Sort ()
 		b = bubbleSorter(b);
 		str = makeAnswer(b);
 		Info infoFrame = new Info();
-		infoFrame.showData("Дано: " + str2 + ". После сортировки: " + str);
+		infoFrame.showData("Р”Р°РЅРѕ: " + str2 + ". РџРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё: " + str);
 	}
 
 	private int[] toSwap(int f, int s, int[] b)

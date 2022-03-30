@@ -1,11 +1,11 @@
-package laba4; //пакет Java классов
+package laba4; //РїР°РєРµС‚ Java РєР»Р°СЃСЃРѕРІ
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.*;
-import javax.swing.*; // Библиотека для GUI (построена на основе awt)
+import javax.swing.*; // Р‘РёР±Р»РёРѕС‚РµРєР° РґР»СЏ GUI (РїРѕСЃС‚СЂРѕРµРЅР° РЅР° РѕСЃРЅРѕРІРµ awt)
 import java.awt.event.ActionListener;
 public class subversion {
 
@@ -13,31 +13,31 @@ public class subversion {
     private JLabel label;
 	
 	public subversion() {
-		JFrame main_GUI = new JFrame("Лаба 5");
+		JFrame main_GUI = new JFrame("Р›Р°Р±Р° 3");
         main_GUI.setBounds(300,100,500,500);
         main_GUI.setResizable(false);
         main_GUI.setLayout(null);
 
-        JButton button = new JButton("Информация");
+        JButton button = new JButton("РРЅС„РѕСЂРјР°С†РёСЏ");
         button.setBounds(10,300,150,40);
         ActionListener actionListener = new ListenerButton();
         button.addActionListener(actionListener);
         main_GUI.add(button);
         
-        JButton buttonExit = new JButton("Выход");
+        JButton buttonExit = new JButton("Р’С‹С…РѕРґ");
         buttonExit.setBounds(170,300,150,40);
         ActionListener actionListenerEx = new ListenerExit();
         buttonExit.addActionListener(actionListenerEx);
         main_GUI.add(buttonExit);
         
         JMenuBar menuBar = new JMenuBar();
-        JMenu menu = new JMenu("Меню");
+        JMenu menu = new JMenu("РњРµРЅСЋ");
         menuBar.add(menu);
         main_GUI.setJMenuBar(menuBar);
 
-        JMenuItem menuItem1 = new JMenuItem("Логотип");
-        JMenuItem menuItem2 = new JMenuItem("Выход");
-        JMenuItem menuItem3 = new JMenuItem("Загрузить файл в проект23");
+        JMenuItem menuItem1 = new JMenuItem("Р›РѕРіРѕС‚РёРї");
+        JMenuItem menuItem2 = new JMenuItem("Р’С‹С…РѕРґ");
+        JMenuItem menuItem3 = new JMenuItem("Р—Р°РіСЂСѓР·РёС‚СЊ С„Р°Р№Р» РІ РїСЂРѕРµРєС‚23");
         
         menu.add(menuItem1);
         menu.add(menuItem2);
@@ -53,7 +53,7 @@ public class subversion {
         JLabel labelTwo = new JLabel();
         labelTwo.setLocation(5,400);
         labelTwo.setSize(450,30);
-        labelTwo.setText("Уфимский Государственный Авиационный Технический Университет");
+        labelTwo.setText("РЈС„РёРјСЃРєРёР№ Р“РѕСЃСѓРґР°СЂСЃС‚РІРµРЅРЅС‹Р№ РђРІРёР°С†РёРѕРЅРЅС‹Р№ РўРµС…РЅРёС‡РµСЃРєРёР№ РЈРЅРёРІРµСЂСЃРёС‚РµС‚");
         main_GUI.add(labelTwo);
         
         ActionListener actionListenerExit = new ListenerExit();
@@ -62,10 +62,10 @@ public class subversion {
         ActionListener actionListenerMenuItem = new ListenerMenuItem(label);
         menuItem1.addActionListener(actionListenerMenuItem);
         String[] items = {
-        		"Переместить логотип УГАТУ в левый верхний угол",
-        		"Переместить логотип УГАТУ в середину",
-        		"Переместить логотип УГАТУ в правый верхний угол",
-        		"Отсортировать данные в проекте23"
+        		"РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ Р»РµРІС‹Р№ РІРµСЂС…РЅРёР№ СѓРіРѕР»",
+        		"РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ СЃРµСЂРµРґРёРЅСѓ",
+        		"РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ РїСЂР°РІС‹Р№ РІРµСЂС…РЅРёР№ СѓРіРѕР»",
+        		"РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РґР°РЅРЅС‹Рµ РІ РїСЂРѕРµРєС‚Рµ23"
         		};
         		JComboBox comboBox = new JComboBox(items);
         		main_GUI.add(comboBox);
@@ -101,7 +101,7 @@ public class subversion {
         		t3.setLocation(220, 120);
         		main_GUI.add(t3);
         		
-        		JButton buttonCalc = new JButton("Вычислить");
+        		JButton buttonCalc = new JButton("Р’С‹С‡РёСЃР»РёС‚СЊ");
         		buttonCalc.setBounds(330,300,150,40);
         		buttonCalc.addActionListener(new Calculations(t1, t2, t3));
         		main_GUI.add(buttonCalc);

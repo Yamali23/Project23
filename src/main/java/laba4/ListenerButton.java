@@ -9,7 +9,8 @@ public class ListenerButton implements ActionListener {
 	
 			
 		 Info info = new Info();
-		 info.showData("Аюпов Д.А.;  Кадыров Р.Р.;  Полетавкина А.С.; Ямали Д.Д. ");
+		 info.showData("РђСЋРїРѕРІ Р”.Рђ.;  РљР°РґС‹СЂРѕРІ Р .Р .;  РџРѕР»РµС‚Р°РІРєРёРЅР° Рђ.РЎ.; РЇРјР°Р»Рё Р”.Р”. ");
+			
 		
 	}
 

@@ -5,12 +5,18 @@ import javax.swing.*;
 public class Info  
 {
    
-	JButton button2 = new JButton("Назад");
-    JFrame main_GUI2 = new JFrame("Информация");
+	JButton button2 = new JButton("РќР°Р·Р°Рґ");
+    JFrame main_GUI2 = new JFrame("РРЅС„РѕСЂРјР°С†РёСЏ");
     JPanel main_panel = new JPanel();
 
     public Info()
     {
+    	
+    	JLabel l3 = new JLabel("Р”Р°С‚Р°: ");
+		l3.setSize(100,40);
+		l3.setLocation(00, 120);
+		main_GUI2.add(l3);
+
 
         main_GUI2.setBounds(300,100,500,500);
         main_GUI2.setResizable(false);

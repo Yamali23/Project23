@@ -17,15 +17,15 @@ package laba4;
 			public void changeLocation () {
 				String item = (String)box.getSelectedItem();
 	
-				if ( item.equals("Переместить логотип УГАТУ в правый верхний угол"))
+				if ( item.equals("РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ РїСЂР°РІС‹Р№ РІРµСЂС…РЅРёР№ СѓРіРѕР»"))
 			{
 					label.setLocation(330,3);
 			}
-				if ( item.equals("Переместить логотип УГАТУ в середину"))
+				if ( item.equals("РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ СЃРµСЂРµРґРёРЅСѓ"))
 			{
 					label.setLocation(150,130);
 			}
-				if ( item.equals("Переместить логотип УГАТУ в левый верхний угол"))
+				if ( item.equals("РџРµСЂРµРјРµСЃС‚РёС‚СЊ Р»РѕРіРѕС‚РёРї РЈР“РђРўРЈ РІ Р»РµРІС‹Р№ РІРµСЂС…РЅРёР№ СѓРіРѕР»"))
 				{
 					label.setLocation(5,3);
 		}
@@ -36,7 +36,7 @@ package laba4;
 			{
 				item = (String)box.getSelectedItem();
 	
-				if (item.equals("Отсортировать данные в проекте23"))
+				if (item.equals("РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РґР°РЅРЅС‹Рµ РІ РїСЂРѕРµРєС‚Рµ23"))
 				{
 					Sort sort = new Sort();
 		}

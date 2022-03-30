@@ -12,7 +12,7 @@ public class Info
     public Info()
     {
     	
-    	JLabel l3 = new JLabel("Дата: ");
+    	JLabel l3 = new JLabel("Дата: 30.03");
 		l3.setSize(100,40);
 		l3.setLocation(00, 120);
 		main_GUI2.add(l3);
